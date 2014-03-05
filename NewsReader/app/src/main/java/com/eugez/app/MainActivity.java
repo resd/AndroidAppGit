@@ -120,7 +120,10 @@ public class MainActivity extends ActionBarActivity {
                             currentStudent.id = parser.nextText();
                         } else if (name == "ratingPoints") {
                             currentStudent.ratingPoints = parser.nextText();
-                        }
+                        } else if (name.equals("napravlenie"))
+                            currentNapravlenie = new Napravlenie();
+                    } else if (name.equals("naimenovanie")) {
+                        currentNapravlenie.naimenovanie = parser.nextText();
                     }
                     break;
                 case XmlPullParser.END_TAG:
