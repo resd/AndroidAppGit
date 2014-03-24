@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Test</string>
+    <string name="app_name">Приемная комиссия</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_results">results</string>
+    <string name="action_settings">Параметры</string>
+    <string name="title_activity_results">Результаты</string>
+    <string name="title_information">Информация</string>
+    <string name="title_activity_settings">Settings</string>
 
 </resources>
