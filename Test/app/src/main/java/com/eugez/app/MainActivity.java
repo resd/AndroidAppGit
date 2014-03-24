@@ -51,12 +51,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             switch (view.getId()) {
                 case R.id.button:
                     //call second activity
-                    intent = new Intent(this, Results.class);
+                    intent = new Intent(this, Result.class);
                     intent.putExtra("id", editTxt.getText().toString());
                     startActivity(intent);
                     break;
                 case R.id.button2:
-                    /*intent = new Intent(this, Results.class);
+                    /*intent = new Intent(this, Result.class);
                     startActivity(intent);*/
                     break;
                 default:
@@ -73,7 +73,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 //startActivity(intent1);
                 break;
             case R.id.results_settings:
-                /*Intent intent2 = new Intent(this, Results.class);
+                /*Intent intent2 = new Intent(this, Result.class);
                 startActivity(intent2);*/
                 break;
         }
