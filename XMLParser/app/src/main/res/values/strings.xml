@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XMLParser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Параметры</string>
+    <string name="title_information">Информация</string>
+    <string name="title_main_activity">MainActivity</string>
+    <string name="title_activity_results_viewer">ResultsViewer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dialog_confirm_title">Продолжить?</string>
+    <string name="dialog_confirm_yes">Да</string>
+    <string name="dialog_confirm_no">Отмена</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="checkbox_custom_dialog">Сохранить ID</string>
+    <string name="custom_dialog_positive">Продолжить</string>
+    <string name="custom_dialog_negative">Выйти</string>
+    <string name="switch_wifi_text">Только Wi-Fi</string>
+    <string name="connecting_error">Нет подключения к сети.</string>
+    <string name="URL">http://ac.opu.ua/2014/xml/xml_vstup_onpu.php&amp;id=</string>
+    <string-array name="array_of_time_variants">
+        <item>15 мин.</item>
+        <item>1 час</item>
+        <item>3 часа</item>
+    </string-array>
+
+
+</resources>
